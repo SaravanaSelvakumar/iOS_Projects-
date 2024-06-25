@@ -1,0 +1,39 @@
+
+/* Class = "UITextField"; text = "Slelect Reason "; ObjectID = "9qS-7C-qfK"; */
+"9qS-7C-qfK.text" = "காரணத்தைத் தேர்ந்தெடுக்கவும் ";
+
+/* Class = "UITextField"; text = "Select Symtom"; ObjectID = "FL0-O8-0Zn"; */
+"FL0-O8-0Zn.text" = "அறிகுறியைத் தேர்ந்தெடுக்கவும்";
+
+/* Class = "UILabel"; text = "Reason For Visit"; ObjectID = "NP8-oe-YWn"; */
+"NP8-oe-YWn.text" = "வருகைக்கான காரணம்";
+
+/* Class = "UILabel"; text = "Symptom List"; ObjectID = "PW0-Zq-zaR"; */
+"PW0-Zq-zaR.text" = "அறிகுறி பட்டியல்";
+
+/* Class = "UILabel"; text = "Diagnosis"; ObjectID = "bUd-E8-guO"; */
+"bUd-E8-guO.text" = "கண்டறிதல்";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "iSJ-VK-42R"; */
+"iSJ-VK-42R.configuration.title" = "அடுத்த";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iSJ-VK-42R"; */
+"iSJ-VK-42R.normalTitle" = "பட்டன்";
+
+/* Class = "UILabel"; text = "Symptom Catgory"; ObjectID = "j2M-ft-GYb"; */
+"j2M-ft-GYb.text" = "அறிகுறி வகை";
+
+/* Class = "UIButton"; configuration.title = "Add Patinet"; ObjectID = "pYb-gM-ML0"; */
+"pYb-gM-ML0.configuration.title" = "நோயாளியைச் சேர்க்கவும்";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pYb-gM-ML0"; */
+"pYb-gM-ML0.normalTitle" = "பட்டன்";
+
+/* Class = "UIButton"; configuration.title = "Add Patinet"; ObjectID = "sg6-A2-jBZ"; */
+"sg6-A2-jBZ.configuration.title" = "நோயாளியைச் சேர்க்கவும்";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sg6-A2-jBZ"; */
+"sg6-A2-jBZ.normalTitle" = "பட்டன்";
+
+/* Class = "UILabel"; text = "Symptoms"; ObjectID = "wuh-t7-MXq"; */
+"wuh-t7-MXq.text" = "அறிகுறிகள்";

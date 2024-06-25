@@ -1,0 +1,39 @@
+
+/* Class = "UITextField"; text = "Slelect Reason "; ObjectID = "9qS-7C-qfK"; */
+"9qS-7C-qfK.text" = "కారణం ఎంచుకోండి ";
+
+/* Class = "UITextField"; text = "Select Symtom"; ObjectID = "FL0-O8-0Zn"; */
+"FL0-O8-0Zn.text" = "లక్షణాన్ని ఎంచుకోండి";
+
+/* Class = "UILabel"; text = "Reason For Visit"; ObjectID = "NP8-oe-YWn"; */
+"NP8-oe-YWn.text" = "సందర్శించడానికి కారణం";
+
+/* Class = "UILabel"; text = "Symptom List"; ObjectID = "PW0-Zq-zaR"; */
+"PW0-Zq-zaR.text" = "లక్షణ జాబితా";
+
+/* Class = "UILabel"; text = "Diagnosis"; ObjectID = "bUd-E8-guO"; */
+"bUd-E8-guO.text" = "డయాగ్నోసిస్";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "iSJ-VK-42R"; */
+"iSJ-VK-42R.configuration.title" = "తరువాత";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iSJ-VK-42R"; */
+"iSJ-VK-42R.normalTitle" = "బటన్";
+
+/* Class = "UILabel"; text = "Symptom Catgory"; ObjectID = "j2M-ft-GYb"; */
+"j2M-ft-GYb.text" = "లక్షణ వర్గం";
+
+/* Class = "UIButton"; configuration.title = "Add Patinet"; ObjectID = "pYb-gM-ML0"; */
+"pYb-gM-ML0.configuration.title" = "రోగిని జోడించండి";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pYb-gM-ML0"; */
+"pYb-gM-ML0.normalTitle" = "బటన్";
+
+/* Class = "UIButton"; configuration.title = "Add Patinet"; ObjectID = "sg6-A2-jBZ"; */
+"sg6-A2-jBZ.configuration.title" = "రోగిని జోడించండి";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sg6-A2-jBZ"; */
+"sg6-A2-jBZ.normalTitle" = "బటన్";
+
+/* Class = "UILabel"; text = "Symptoms"; ObjectID = "wuh-t7-MXq"; */
+"wuh-t7-MXq.text" = "లక్షణాలు";

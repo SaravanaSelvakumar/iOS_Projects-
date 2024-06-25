@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="EuclidSquare-Medium.ttf">
+            <string>EuclidSquare-Medium</string>
+        </array>
+        <array key="EuclidSquare-SemiBold.ttf">
+            <string>EuclidSquare-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--ApprovalVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ApprovalVC" id="Y6W-OH-hqX" customClass="ApprovalVC" customModule="Nucleo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLY-eO-rtI" customClass="NavigationView" customModule="Nucleo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="wef-VO-scJ"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RZS-My-qKj">
+                                <rect key="frame" x="0.0" y="242" width="414" height="620"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OMw-F2-Fmy">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="Dek-JB-iBn"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="n4V-cW-jXC"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi John Doe," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLG-Sq-F3n">
+                                <rect key="frame" x="29" y="134" width="141" height="30.5"/>
+                                <fontDescription key="fontDescription" name="EuclidSquare-SemiBold" family="Euclid Square" pointSize="24"/>
+                                <color key="textColor" red="0.043137254901960784" green="0.023529411764705882" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi John Doe," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SaU-DL-Hi4">
+                                <rect key="frame" x="31" y="170.5" width="94" height="20.5"/>
+                                <fontDescription key="fontDescription" name="EuclidSquare-Medium" family="Euclid Square" pointSize="16"/>
+                                <color key="textColor" red="0.43529411764705883" green="0.43529411764705883" blue="0.43529411764705883" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="Primary_BG"/>
+                        <constraints>
+                            <constraint firstItem="PLY-eO-rtI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="0qh-hc-hlF"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="RZS-My-qKj" secondAttribute="bottom" id="705-wj-4cP"/>
+                            <constraint firstItem="RZS-My-qKj" firstAttribute="top" secondItem="SaU-DL-Hi4" secondAttribute="bottom" constant="51" id="MW2-DS-moK"/>
+                            <constraint firstItem="SaU-DL-Hi4" firstAttribute="top" secondItem="mLG-Sq-F3n" secondAttribute="bottom" constant="6" id="SNd-eG-dnI"/>
+                            <constraint firstAttribute="trailing" secondItem="PLY-eO-rtI" secondAttribute="trailing" id="SXW-zB-I8B"/>
+                            <constraint firstItem="SaU-DL-Hi4" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="31" id="adZ-qs-g0x"/>
+                            <constraint firstItem="mLG-Sq-F3n" firstAttribute="top" secondItem="PLY-eO-rtI" secondAttribute="bottom" constant="34" id="evU-DA-9Y7"/>
+                            <constraint firstItem="mLG-Sq-F3n" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="29" id="ieH-se-f18"/>
+                            <constraint firstItem="RZS-My-qKj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="qv6-tu-22A"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="RZS-My-qKj" secondAttribute="trailing" id="uYz-oy-ENg"/>
+                            <constraint firstItem="PLY-eO-rtI" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="ytF-vf-Xw4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="RZS-My-qKj" id="hAU-ja-pYG"/>
+                        <outlet property="navigationView" destination="PLY-eO-rtI" id="nJG-E5-SpN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="78.348214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Primary_BG">
+            <color red="0.97600001096725464" green="0.97299998998641968" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

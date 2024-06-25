@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Nill"; ObjectID = "0rD-KL-692"; */
+"0rD-KL-692.text" = "शून्य";
+
+/* Class = "UILabel"; text = "Nill"; ObjectID = "6Ly-Ki-6a8"; */
+"6Ly-Ki-6a8.text" = "शून्य";
+
+/* Class = "UILabel"; text = "Token No"; ObjectID = "Dl8-Eo-Tqi"; */
+"Dl8-Eo-Tqi.text" = "टोकन नंबर";
+
+/* Class = "UILabel"; text = "Nill"; ObjectID = "EnM-ic-Ufr"; */
+"EnM-ic-Ufr.text" = "शून्य";
+
+/* Class = "UILabel"; text = "Hi john Deo"; ObjectID = "Erz-e8-7DI"; */
+"Erz-e8-7DI.text" = "हाय जॉन देव";
+
+/* Class = "UILabel"; text = "Wait Time"; ObjectID = "NvE-dA-DAp"; */
+"NvE-dA-DAp.text" = "प्रतीक्षा समय";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "dqS-vI-CKB"; */
+"dqS-vI-CKB.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dqS-vI-CKB"; */
+"dqS-vI-CKB.normalTitle" = "बटन";
+
+/* Class = "UITextField"; placeholder = "Let's find your doctor"; ObjectID = "hL4-HW-w9c"; */
+"hL4-HW-w9c.placeholder" = "चलिए आपके डॉक्टर को ढूंढते हैं";
+
+/* Class = "UILabel"; text = "How are you today?"; ObjectID = "hgd-5u-lGL"; */
+"hgd-5u-lGL.text" = "आज आप कैसे हैं?";
+
+/* Class = "UILabel"; text = "Appointment Time"; ObjectID = "sOA-nC-aqC"; */
+"sOA-nC-aqC.text" = "नियुक्ति के समय";
+
+/* Class = "UITextField"; placeholder = "Select Queue"; ObjectID = "wOb-d0-cNV"; */
+"wOb-d0-cNV.placeholder" = "कतार का चयन करें";
